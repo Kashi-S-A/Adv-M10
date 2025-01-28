@@ -1,0 +1,33 @@
+package com.ty;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+public class FetchAll {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("dev");
+		EntityManager em = emf.createEntityManager();
+
+		String q = "select s from Student s";
+		
+		String q1="select s from Student s where s.sid=?1";//indexed based parameter
+
+		String q2="select s from Student s where s.sid=?1";
+		Query query = em.createQuery(q1);
+		query.setParameter(1, 102);
+
+		List<Student> students = query.getResultList();
+
+		System.out.println("==========Student Details===========");
+
+		for (Student student : students) {
+			System.out.println(student);
+			System.out.println("-------------------");
+		}
+	}
+}

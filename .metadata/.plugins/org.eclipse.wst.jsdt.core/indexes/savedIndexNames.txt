@@ -1,0 +1,16 @@
+INDEX VERSION 1.4+C:\Users\asus\Desktop\Adv-M6\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+968518456.index
+1347333798.index
+2353794671.index
+3962172689.index
+511837068.index
+3214198500.index
+661600371.index
+666154192.index
+279649715.index
+1509897804.index
+314635744.index
+1742454257.index
+3077321920.index
+1850738084.index
+1114464446.index

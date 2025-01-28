@@ -1,0 +1,12 @@
+1737004020381	Delete element
+1737004987154	Extract local variable 'name'
+1737005009296	Extract local variable 'email'
+1737005031813	Extract local variable 'password'
+1737005132779	Extract local variable 'connection'
+1737005225104	Extract local variable 'prepareStatement'
+1737005293752	Extract local variable 'update'
+1737006298937	Extract local variable 'email'
+1737006323105	Extract local variable 'password'
+1737006357312	Extract local variable 'conn'
+1737006424777	Extract local variable 'rs'
+1737006576997	Extract local variable 'pwd'
