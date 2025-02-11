@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<bean id="myStu" class="com.ty.di.Student">
+		<property name="sid" value="101"></property>
+		<property name="name" value="Dinga"></property>
+	</bean>
+
+
+</beans>

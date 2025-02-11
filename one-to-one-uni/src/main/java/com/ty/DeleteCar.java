@@ -11,7 +11,7 @@ public class DeleteCar {
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction et = em.getTransaction();
 		
-		Car car = em.find(Car.class, 101);
+		Car car = em.find(Car.class, 102);
 		
 		if (car!=null) {
 			et.begin();

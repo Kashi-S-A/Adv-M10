@@ -13,17 +13,17 @@ public class Insert {
 
 		Car c = new Car();
 		c.setCid(102);
-		c.setBrand("TATA");
+		c.setBrand("Audi");
 
 		Engine e = new Engine();
 		e.setEid(222);
-		e.setCc(1500);
+		e.setCc(18000);
 
 		c.setEngine(e);
 
 		et.begin();
 		em.persist(c);
-		em.persist(e);
+//		em.persist(e);//bcz we are using CascadeType
 		et.commit();
 
 		System.out.println("saved");

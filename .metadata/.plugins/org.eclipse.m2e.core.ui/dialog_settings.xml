@@ -57,6 +57,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Annotations"/>
+			<item value="Many-To-Many-Bi"/>
 			<item value="One-To-Many-Bi"/>
 			<item value="One-To-One-Bi"/>
 			<item value="Many-To-Many-Uni"/>
