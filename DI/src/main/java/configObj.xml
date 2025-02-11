@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<bean id="myEngine" class="com.ty.di.obj.Engine">
+		<property name="cc" value="1000"></property>
+	</bean>
+
+	<bean id="myCar" class="com.ty.di.obj.Car">
+		<property name="cid" value="101"></property>
+		<property name="brand" value="bmw"></property>
+		<property name="engine" ref="myEngine"></property>
+	</bean>
+
+</beans>

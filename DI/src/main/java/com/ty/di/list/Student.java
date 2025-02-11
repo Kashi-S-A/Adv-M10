@@ -1,0 +1,36 @@
+package com.ty.di.list;
+
+import java.util.List;
+
+public class Student {
+
+	private String name;
+
+	private List<String> subjects;
+
+	public void display() {
+		System.out.println("Name : " + name);
+		System.out.println("-------Subject--------");
+		for (String subject : subjects) {
+			System.out.println(subject);
+			System.out.println("================");
+		}
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<String> getSubjects() {
+		return subjects;
+	}
+
+	public void setSubjects(List<String> subjects) {
+		this.subjects = subjects;
+	}
+
+}

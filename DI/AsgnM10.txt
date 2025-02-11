@@ -1,0 +1,97 @@
+==========
+Assignment
+==========
+-------------------------
+1) Inject List of Objects
+-------------------------
+package com.ty.di.list;
+
+import java.util.List;
+
+public class Student {
+
+	private String name;
+
+	private List<Subject> subjects;
+
+	public void display() {
+		System.out.println("Name : " + name);
+		System.out.println("-------Subject--------");
+		for (Subject subject : subjects) {
+			subject.display();
+			System.out.println("================");
+		}
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<Subject> getSubjects() {
+		return subjects;
+	}
+
+	public void setSubjects(List<Subject> subjects) {
+		this.subjects = subjects;
+	}
+
+}
+
+package com.ty.di.list;
+
+public class Subject {
+
+	private int subId;
+	
+	private String name;
+	
+    public void display() {
+		System.out.println(subId);
+		System.out.println(name);
+	}
+}
+
+------------
+2)Inject Map
+------------
+
+package com.ty.di.list;
+
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class BookStore {
+
+	private String name;
+
+	private Map<String, Double> books;
+
+	public void display() {
+		System.out.println("========Welcome to " + name + "=========");
+		for (Entry<String, Double> book : books.entrySet()) {
+			System.out.println(book.getKey() + "-->" + book.getKey());
+		}
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Map<String, Double> getBooks() {
+		return books;
+	}
+
+	public void setBooks(Map<String, Double> books) {
+		this.books = books;
+	}
+
+}
+
