@@ -23,20 +23,9 @@ public class Student {
 		}
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public List<Subject> getSubjects() {
-		return subjects;
-	}
-
-	public void setSubjects(List<Subject> subjects) {
-		this.subjects = subjects;
+	public Student(String name,List<Subject> subjects){
+		this.name=name;
+		this.subjects=subjects;
 	}
 
 }
@@ -48,6 +37,11 @@ public class Subject {
 	private int subId;
 	
 	private String name;
+	
+	public Subject(int subId,String name){
+		this.subId=subId;
+		this.name=name;
+	}
 	
     public void display() {
 		System.out.println(subId);
@@ -77,21 +71,9 @@ public class BookStore {
 		}
 	}
 
-	public String getName() {
-		return name;
+	public BookStore(String name,Map<String, Double> books){
+		this.name=name;
+		this.books=books;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Map<String, Double> getBooks() {
-		return books;
-	}
-
-	public void setBooks(Map<String, Double> books) {
-		this.books = books;
-	}
-
 }
 

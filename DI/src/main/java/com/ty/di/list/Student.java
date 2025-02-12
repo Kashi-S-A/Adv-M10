@@ -17,19 +17,8 @@ public class Student {
 		}
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
+	public Student(String name, List<String> subjects) {
 		this.name = name;
-	}
-
-	public List<String> getSubjects() {
-		return subjects;
-	}
-
-	public void setSubjects(List<String> subjects) {
 		this.subjects = subjects;
 	}
 
