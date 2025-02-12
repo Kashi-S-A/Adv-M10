@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\asus\Desktop\Adv-M6\IOC"/>
 			<item value="C:\Users\asus\Desktop\Adv-M6\One-To-One-Bi"/>
 			<item value="C:\Users\asus\Desktop\Adv-M6\Many-To-One-Uni"/>
 			<item value="C:\Users\asus\Desktop\Adv-M6\one-to-one-uni"/>
@@ -57,6 +58,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="DI"/>
 			<item value="Annotations"/>
 			<item value="Many-To-Many-Bi"/>
 			<item value="One-To-Many-Bi"/>
