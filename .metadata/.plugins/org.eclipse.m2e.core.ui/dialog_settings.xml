@@ -58,6 +58,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="NoXml"/>
+			<item value="XmlAndAnnotation"/>
 			<item value="DI"/>
 			<item value="Annotations"/>
 			<item value="Many-To-Many-Bi"/>
